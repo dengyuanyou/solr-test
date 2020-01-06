@@ -42,6 +42,7 @@ public class Test {
         //将查询的结果转化成对象
         List<KeywordsSku> beans = queryResponse.getBeans(KeywordsSku.class);
         System.out.println(beans);
+        System.out.println("你好啊......哈哈");
 
     }
 }
